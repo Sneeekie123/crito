@@ -1,0 +1,184 @@
+.section-title {
+    padding-top: 70px;
+    padding-bottom: 30px;
+  }
+  @media (min-width: 768px) {
+    .section-title {
+      padding-top: 120px;
+      padding-bottom: 90px;
+    }
+  }
+  .section-title p {
+    color: #F94D1C;
+    font-size: 18px;
+    font-family: "Inter";
+    margin-bottom: 10px;
+  }
+  .section-title h2 {
+    color: #191919;
+    font-size: 45px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+  }
+  
+  .center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .browse-services {
+    align-items: center;
+    padding: 15px 30px;
+    font-weight: 600;
+    border-radius: 35px;
+    font-size: 16px;
+    margin-top: 45px;
+  }
+  .browse-services i {
+    margin-left: 10px;
+  }
+  .browse-services:hover {
+    background-color: #191919;
+    border: 1px solid #F9D783;
+    color: #ffffff;
+  }
+  
+  .nav-section {
+    background-color: #F0EFE9;
+    padding: 16px;
+  }
+  .nav-section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+  }
+  .nav-section .container .dropbtn {
+    color: #000000;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  .nav-section .container .dropbtn i {
+    color: #000000;
+  }
+  .nav-section .container .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .nav-section .container .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #DAD9D3;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    right: 1px;
+  }
+  .nav-section .container .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .nav-section .container .dropdown-content a:hover {
+    text-decoration: underline;
+  }
+  .nav-section .container .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .nav-section .container .menu-bars {
+    font-size: 25px;
+    border: none;
+    background-color: transparent;
+  }
+  @media (min-width: 992px) {
+      .nav-section .container .menu-bars {
+      display: none;
+    }
+  }
+  .nav-section .menu {
+    display: none;
+    flex: 1;
+  }
+  @media (min-width: 992px) {
+      .nav-section .menu {
+      display: block;
+    }
+  }
+  .nav-section .menu .top-menu {
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid #DAD9D3;
+    padding-bottom: 8px;
+    align-items: center;
+  }
+  @media (min-width: 1200px) {
+      .nav-section .menu .top-menu {
+      justify-content: space-between;
+    }
+  }
+  .nav-section .menu .top-menu .contact-information {
+    display: none;
+    align-items: center;
+  }
+  @media (min-width: 1200px) {
+      .nav-section .menu .top-menu .contact-information {
+      display: flex;
+    }
+  }
+  .nav-section .menu .top-menu .contact-information .content-box {
+    padding-right: 30px;
+    margin-right: 30px;
+    border-right: 1px solid #DAD9D3;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .nav-section .menu .top-menu .contact-information .content-box i {
+    font-size: 1.2em;
+    margin-right: 5px;
+  }
+  .nav-section .menu .top-menu .contact-information .content-box.last {
+    border: none;
+  }
+  .nav-section .menu .top-menu .social-media a {
+    color: #191919;
+    font-size: 1.3rem;
+    margin-left: 10px;
+  }
+  .nav-section .menu .top-menu .social-media a:hover {
+    color: #7c7c7c;
+  }
+  .nav-section .menu .main-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+  }
+  .nav-section .menu .main-menu nav a {
+    display: inline-block;
+    color: #191919;
+    text-decoration: none;
+    margin-right: 35px;
+    position: relative;
+  }
+  .nav-section .menu .main-menu nav a.active {
+    font-weight: 500;
+  }
+  .nav-section .menu .main-menu nav a.active::after, .nav-section .menu .main-menu nav a:hover::after {
+    content: "";
+    position: absolute;
+    font-weight: 500;
+    height: 2px;
+    width: 15px;
+    background-color: #191919;
+    left: 50%;
+    bottom: -3px;
+    transform: translate(calc(50% - 15px));
+  }
+  .nav-section .menu .main-menu .btn-login {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }

@@ -1,0 +1,19 @@
+
+.paperz-collum .container {
+    display: none;
+  }
+  @media (min-width: 992px) {
+    .paperz-collum .container {
+      display: block;
+    }
+    .paperz-collum .container .paperz {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 76px;
+      margin-bottom: 76px;
+      color: #100f0f;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+  }
