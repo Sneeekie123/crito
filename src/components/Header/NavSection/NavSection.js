@@ -1,6 +1,6 @@
 import './NavSection.css'
 import React from 'react'
-import index_html from '../../assets/images/Logo.svg'
+import index_html from '../../../assets/images/Logo.svg'
 
 
 const NavSection = () => {

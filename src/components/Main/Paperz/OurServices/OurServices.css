@@ -1,0 +1,97 @@
+.our-services {
+    background-color: #F0EFE9;
+    padding: 60px;
+    z-index: auto;
+    position: relative;
+  }
+  @media (min-width: 700px) {
+    .our-services {
+      padding: 120px;
+    }
+  }
+
+  
+  .our-services .headline .top-headline h3 {
+    font-family: "Inter";
+    font-size: 18px;
+    color: #F94D1C;
+    margin-bottom: 25px;
+  }
+  .our-services .headline .top-headline h2 {
+    margin-top: 25px;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: "DM Sans" sans-serif;
+  }
+  @media (min-width: 1550px) {
+    .our-services .headline .top-headline h2 {
+      margin-right: 60%;
+    }
+  }
+  .our-services .headline .service-boxes {
+    margin-top: 20px;
+    gap: 30px;
+  }
+  @media (min-width: 792px) {
+    .our-services .headline .service-boxes {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media (min-width: 1385px) {
+    .our-services .headline .service-boxes {
+      display: flex;
+      margin-top: 20px;
+      gap: 30px;
+    }
+  }
+  .our-services .headline .service-box .circle-arrow {
+    border: none;
+    font-size: 45px;
+    background-color: transparent;
+  }
+  @media (min-width: 1385px) {
+    .our-services .headline .service-box .circle-arrow {
+      margin-left: 80%;
+      margin-top: 20px;
+    }
+  }
+  .our-services .headline .service-box .circle-arrow:hover {
+    background-color: transparent;
+    border: none;
+    color: #F0EFE9;
+  }
+  .our-services .headline .service-box .linje {
+    border: 2px solid black;
+    background-color: #000000;
+    font-weight: 700;
+    width: 39px;
+  }
+  .our-services .headline .service-box .content-box {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-width: 30px;
+    margin-top: 20px;
+  }
+  .our-services .headline .service-box .content-box:hover {
+    background-color: #F9D783;
+    border: 1px solid #F9D783;
+    border-width: 30px;
+    margin-top: 20px;
+  }
+  
+
+  .our-services .headline .browse {
+    display: flex;
+    justify-content: center;
+  }
+  .our-services .headline .browse .browse-services {
+    z-index: 2;
+  }
+  .our-services .wavy-lines-middle {
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+  }

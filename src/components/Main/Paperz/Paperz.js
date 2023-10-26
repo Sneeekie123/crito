@@ -1,10 +1,10 @@
 import './Paperz.css'
 import React from 'react'
-import i_paperz from '../../assets/images/paperz.png'
-import i_dorufus from '../../assets/images/dorufus.png'
-import i_martino from '../../assets/images/martino.png'
-import i_square from '../../assets/images/square.png'
-import i_gobana from '../../assets/images/gobana.png'
+import i_paperz from '../../../assets/images/paperz.png'
+import i_dorufus from '../../../assets/images/dorufus.png'
+import i_martino from '../../../assets/images/martino.png'
+import i_square from '../../../assets/images/square.png'
+import i_gobana from '../../../assets/images/gobana.png'
 
 const Paperz = () => {
   return (

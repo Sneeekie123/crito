@@ -1,7 +1,7 @@
 import './ShowCaseSection.css'
 import React from 'react'
-import img_backgroundlines from '../../assets/images/background-lines.svg'
-import images_showcase from '../../assets/images/Showcase-image.svg'
+import img_backgroundlines from '../../../assets/images/background-lines.svg'
+import images_showcase from '../../../assets/images/Showcase-image.svg'
 
 function Showcase() {
   return (

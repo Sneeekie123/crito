@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/Header/Header';
-import Paperz from './components/Paperz/Paperz'
+import OurServices from './components/Main/Paperz/OurServices/OurServices';
+import Paperz from './components/Main/Paperz/Paperz'
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <main>
         <Paperz />
+        <OurServices />
       </main >
     </div>
   );
