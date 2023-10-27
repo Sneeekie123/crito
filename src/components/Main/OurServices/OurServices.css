@@ -84,8 +84,10 @@
   .our-services .headline .browse {
     display: flex;
     justify-content: center;
+    
   }
   .our-services .headline .browse .browse-services {
+    position: relative;
     z-index: 2;
   }
   .our-services .wavy-lines-middle {
@@ -95,3 +97,5 @@
     bottom: 0;
     z-index: 1;
   }
+
+  

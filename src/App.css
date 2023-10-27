@@ -69,3 +69,21 @@ html, body {
   color: #F0EFE9;
 }
 
+.browse-services {
+  align-items: center;
+  padding: 15px 30px;
+  font-weight: 600;
+  border-radius: 35px;
+  font-size: 16px;
+  margin-top: 45px;
+}
+.browse-services i {
+  margin-left: 10px;
+}
+.browse-services:hover {
+  background-color: #191919;
+  border: 1px solid #F9D783;
+  color: #ffffff;
+}
+
+
