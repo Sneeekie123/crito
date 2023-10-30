@@ -1,0 +1,18 @@
+.icons-and-copyright {
+  background-color: #0E1021;
+  color: #ffffff;
+}
+.icons-and-copyright .copyright {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 35px;
+  padding-bottom: 15px;
+}
+.icons-and-copyright a {
+  color: #ffffff;
+  font-size: 1.3rem;
+  margin-left: 10px;
+}
+.icons-and-copyright a:hover {
+  color: #7c7c7c;
+}
