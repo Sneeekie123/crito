@@ -39,7 +39,7 @@ const OurServices = () => {
                    
                 </div>
                 <div className="container browse"> 
-                <Button type="browse" title="Browse Services" url="services.html"/>  
+                <Button type="" title="Browse Services" url="services.html"/>  
                 </div>
                 <div className="wavy-lines-middle">
                     <img className='wavy-lines-middle' src={wavy_lines_middle} alt="wavy-lines.middle"/>

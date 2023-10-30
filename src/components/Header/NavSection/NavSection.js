@@ -1,5 +1,6 @@
 import './NavSection.css'
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import index_html from '../../../assets/images/Logo.svg'
 
 
@@ -13,10 +14,10 @@ const NavSection = () => {
             <div className="dropdown">
                 <button className="dropbtn"><a href='#'><i className="menu-bars fa-solid fa-bars-staggered"></i></a></button>
                 <div className="dropdown-content">
-                    <a className="active" href="home.html">Home</a>
-                    <a href="Service.html">Service</a>
-                    <a href="News.html">News</a>
-                    <a href="Contact.html">Contact</a>
+                    <NavLink to="/">Home</NavLink>
+                    <NavLink to="Service.html">Service</NavLink>
+                    <NavLink to="News.html">News</NavLink>
+                    <NavLink to="/contacts">Contact</NavLink>
                 </div>
             </div>
             
@@ -45,10 +46,10 @@ const NavSection = () => {
                 </div>  
                 <div className="main-menu">
                     <nav>
-                        <a className="active" href="home.html">Home</a>
-                        <a href="Service.html">Service</a>
-                        <a href="News.html">News</a>
-                        <a href="Contact.html">Contact</a>
+                    <NavLink to="/">Home</NavLink>
+                    <NavLink to="Service.html">Service</NavLink>
+                    <NavLink to="News.html">News</NavLink>
+                    <NavLink to="/contacts">Contact</NavLink>
                     </nav>
                     <a className="btn-yellow btn-login" href="login.hmtl">Login<i className="fa-regular fa-arrow-up-right"></i></a>
                 </div>                     

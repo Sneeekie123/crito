@@ -10,6 +10,7 @@ import NotFound from './Sides/NotFound';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <div className='wrapper'>
     <BrowserRouter>
       <Routes>
         
@@ -19,6 +20,6 @@ root.render(
        
       </Routes>
     </BrowserRouter>
-    
+    </div>
   </React.StrictMode>
 );

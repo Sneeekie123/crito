@@ -75,13 +75,16 @@ html, body {
   font-weight: 600;
   border-radius: 35px;
   font-size: 16px;
+  
   margin-top: 45px;
 }
+
+
 .browse-services i {
   margin-left: 10px;
 }
 .browse-services:hover {
-  background-color: #191919;
+  background-color: #191919c7;
   border: 1px solid #F9D783;
   color: #ffffff;
 }
