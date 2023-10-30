@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Contacts from './Sides/Contacts';
 import Home from './Sides/Home'
-import NotFound from './Sides/NotFound';
+import NotFound from './components/NotFound/NotFound';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

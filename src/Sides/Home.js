@@ -26,9 +26,9 @@ const Home = () => {
       <Meet_our_team />
       <Article_and_news />
       <Newsletter />
-      <Footer_top />
-      <Footer_icons />
     </main >
+    <Footer_top />
+    <Footer_icons />
   </div>
   )
 }

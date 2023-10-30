@@ -1,5 +1,5 @@
 import React from 'react'
-import '../components/Generics/Button'
+import '../Generics/Button'
 import { Link } from 'react-router-dom'
 import './NotFound'
 
