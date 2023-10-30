@@ -1,0 +1,133 @@
+.fetures {
+    border: 2px solid #F0EFE9;
+    margin-top: 60px;
+    
+    @media (min-width: 992px) {
+        margin-right: 20px;
+        margin-left: 20px;
+        
+        padding-left: 30px;
+        padding-bottom: 60px;
+    }
+
+    @media (min-width: 1450px) {
+        margin-right: 5%;
+        margin-left: 5%;
+    
+    }
+
+    @media (min-width: 1750px) {
+        margin-right: 12%;
+        margin-left: 12%;
+    
+    }
+    
+
+    .features-grid {
+
+        display: grid;
+
+
+        grid-template-areas:
+          "menu menu menu menu "
+          'header header main main '
+          'header header main main '
+          "footer footer right right "
+          "footer footer right right ";
+       
+
+          
+
+        .item1 { grid-area: header; }
+        .item2 { grid-area: menu; }
+        .item3 { grid-area: main; }
+        .item4 { grid-area: right; }
+        .item5 { grid-area: footer; }
+        .item6 { grid-area: button; }
+
+        @media (min-width: 992px) {
+            display: grid;
+
+
+    
+        
+        grid-template-areas:
+          'menu menu  header main '
+          'menu menu  header main '
+          "menu menu  footer right "
+          "menu menu  footer right ";
+        
+        
+        background-color:    #ffffff ;
+       
+        padding-top: 60px;
+        padding-bottom: 60px;
+        border-spacing: 60px;    
+        
+    
+        
+        }
+        
+        div {
+            
+            text-align: left;
+            padding: 10px 0px;
+            font-size: 30px;
+        }
+    
+    
+        img {
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+    
+    
+    
+        h2 {
+            font-size: 22px;
+            font-family: "DM Sans" , sans-serif;
+            font-weight: 700;
+            margin-bottom: 20px;
+            padding-right: 50px;
+        }
+    
+    
+        h4 {
+            font-size: 16px;
+            padding-right: 50px;
+            font-weight: 300;
+            margin-right: 30px;
+        }
+    
+        .item2 {
+            padding-right: 20%;
+
+            .headline-grid {
+                @media (max-width: 992px) {
+                    padding: 0px;
+                }
+                
+            }
+    
+            
+    
+            h4 {
+                font-family: 'Inter';
+                font-size: 18px;
+                color: #F94D1C;
+                margin-bottom: 30px;
+            }
+    
+            h2 {
+                font-size: 45px;
+                
+            }
+    
+            button {
+                margin-top: -30px;
+                border: 1px solid #000000;
+                margin-right: 40px;            
+            }   
+        }
+    }    
+}

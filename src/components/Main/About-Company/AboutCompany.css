@@ -1,0 +1,88 @@
+.about-company .container {
+  display: flex;
+  margin-top: 110px;
+}
+.about-company .container .samantha {
+  position: relative;
+  display: none;
+}
+@media (min-width: 1200px) {
+  .about-company .container .samantha {
+    display: block;
+  }
+}
+.about-company .container .samantha .samantha-blue {
+  border: 1px solid black;
+  width: 368px;
+  height: 180px;
+  left: -56px;
+  top: -220px;
+  position: relative;
+  background-color: #BEEBFF;
+}
+.about-company .container .samantha .samantha-blue h3 {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Dm Sans", sans-serif;
+  margin-left: 25px;
+}
+.about-company .container .samantha .samantha-blue h3 .founder {
+  color: #F94D1C;
+}
+.about-company .container .samantha .samantha-blue h4 {
+  font-weight: 300;
+  font-size: 16px;
+  margin-left: 25px;
+}
+@media (min-width: 1200px) {
+  .about-company .container .about {
+    margin-left: 200px;
+  }
+}
+.about-company .container .about h3 {
+  color: #F94D1C;
+  font-size: 18px;
+  font-weight: 400;
+}
+.about-company .container .about h2 {
+  margin-top: 25px;
+  font-size: 45px;
+  font-weight: 700;
+  font-family: "DM Sans" sans-serif;
+}
+.about-company .container .about h4 {
+  margin-top: 25px;
+  font-size: 16px;
+  font-weight: 300;
+}
+.about-company .container .about p {
+  margin-top: 150px;
+  display: inline-block;
+}
+.about-company .container .about .intro {
+  margin-left: 15px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.about-company .container .about .btn-round {
+  margin-left: 40px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: 1px solid #191919;
+  width: 58px;
+  height: 58px;
+  text-align: center;
+  padding: 16px;
+  margin-bottom: 60px;
+}
+@media (min-width: 1200px) {
+  .about-company .container .about .btn-round {
+    margin-bottom: 0px;
+  }
+}
+.about-company .container .about .btn-round:hover {
+  background-color: #191919;
+  border: 1px solid #191919;
+  color: #F0EFE9;
+}

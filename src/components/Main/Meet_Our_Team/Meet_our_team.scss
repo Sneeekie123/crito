@@ -1,0 +1,241 @@
+.meet-our-team {
+    background-color: #F0D082;
+    padding-top: 110px;
+    border: 2px solid #F0EFE9;
+    padding-bottom: 110px;
+    
+
+    .background-yellow {
+
+        .dots {
+            display: flex;
+            justify-content: center;
+            margin-top: 60px;
+            margin-bottom: 60px;
+         
+        }
+
+
+        .experience-team {
+            
+            h3 {
+                font-family: 'Inter';
+                font-size: 18px;
+                color: #F94D1C;
+                margin-bottom: 25px;
+                
+            }
+
+            h2 {
+
+                @media (min-width: 440px) {
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                .btn-yellow {
+                    white-space: nowrap;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+
+                    @media (min-width: 438) {
+                        margin-top: 0px;
+                        margin-bottom: 0px;
+                    }
+                }
+
+                @media (min-width: 728px) {
+                    display: flex;
+                    justify-content: space-between;
+                }
+                
+                @media (min-width: 992px) {
+                    display: flex;
+                    font-size: 45px;
+                    font-weight: 700;
+                    margin-bottom: 100px;
+                }
+                
+                .btn-yellow {
+
+                    border: 1px solid #191919;   
+                }
+            }        
+        }
+
+        .personell-pictures {
+            display: flex;
+
+            @media (min-width: 768px) {
+                justify-content: space-between;
+            }
+            
+            
+                justify-content: center;
+                align-items: center;
+
+            #mark {
+                display: none;
+                @media (min-width: 620px) {
+                    display: block;
+                }
+            }
+
+            #kimberly {
+                display: none;
+                @media (min-width: 992px) {
+                    display: block;
+                }
+            }
+            
+            
+            #justin {
+                display: none;
+                @media (min-width: 1368px) {
+                    display: block;
+                }
+
+            }
+         
+
+            .first-last-name {
+                margin-top: 30px;
+                
+                h4 {
+                font-size: 22px;
+                font-family: "DM Sans" , sans-serif;
+                font-weight: 700;
+                }
+
+                p {
+                    font-family: 'Inter';
+                    font-size: 18px;
+
+                }
+            }
+            
+        }
+
+        .testimonial {
+
+            border: 2px solid #ffffff;
+            background-color: #ffffff;
+    
+            @media (min-width: 992px) {
+                margin-right: 20px;
+                margin-left: 20px;
+                
+                padding-left: 30px;
+                padding-bottom: 60px;
+            }
+        
+            @media (min-width: 1450px) {
+                margin-right: 5%;
+                margin-left: 5%;
+            
+            }
+        
+            @media (min-width: 1750px) {
+                margin-right: 12%;
+                margin-left: 12%;
+            
+            }
+
+
+            #amanda {
+                display: none;
+                @media (min-width: 768px) {
+                    display: block;
+                }
+            }
+
+            #jack {
+                display: none;
+                @media (min-width: 1200px) {
+                    display: block;
+                }
+            }
+
+            
+           
+
+            .red-headline {
+                
+                background-color: #ffffff;
+                
+                
+                p {
+                    display: flex;
+                    justify-content: center;
+                    font-family: 'Inter';
+                    font-size: 18px;
+                    color: #F94D1C;
+                    margin-bottom: 25px;
+                    margin-top: 125px;
+
+                }
+
+                h2 {
+                    display: flex;
+                    justify-content: center;
+                    font-size: 45px;
+                    font-weight: 700;
+                    margin-bottom: 100px;
+
+                }
+                
+            }
+
+            .rating-from-google {
+                display: flex;
+                justify-content: space-between;
+                
+                
+                .rating-text {
+                    margin-right: 100px;
+                    margin-top: 25px;
+                }
+
+                .personal-intro {
+                    
+                    display: inline-flex;
+
+
+                    h4 {
+                        margin-top: 30px;
+                        margin-left: 15px;
+                        font-size: 22px;
+                        font-family: "DM Sans" , sans-serif;
+                        font-weight: 700;
+
+                        p {
+                            margin-top: 5px;
+                            font-family: 'Inter';
+                            font-size: 18px;
+                            color: #F94D1C;
+                            font-weight: 300;
+                        }
+                        
+
+                    }
+                   
+                   
+                }
+
+            
+                
+            }
+
+            .all-reviews {
+                display: flex;
+                justify-content: center;
+                margin-top: 90px;
+                margin-bottom: 120px;
+      
+            }
+
+        }
+    
+    }
+    
+}

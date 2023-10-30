@@ -1,0 +1,121 @@
+.about-company {
+    
+    .container {
+        display: flex;
+        margin-top: 110px;
+        
+
+        .samantha {
+            position: relative;
+            
+            display: none;
+
+
+            @media (min-width: 1200px) {
+                display: block;
+            }
+            
+
+            .samantha-blue{
+                border: 1px solid black;
+                width: 368px;
+                height: 180px;
+                
+                
+                left: -56px;
+                top: -220px;
+                position: relative;
+                background-color: #BEEBFF;
+                
+                h3 {
+                    margin-top: 30px;
+                    font-size: 20px;
+                    font-weight: 700;
+                    font-family: 'Dm Sans', sans-serif;
+                    margin-left: 25px;
+                    
+                    
+                    .founder {
+                        color: #F94D1C;
+                    }
+
+                }
+
+                h4 {
+                    font-weight: 300;
+                    font-size: 16px;
+                    margin-left: 25px;
+                }
+            }
+        }
+
+
+        .about {
+
+
+            @media (min-width: 1200px) {
+                margin-left: 200px;
+                
+            }
+           
+            
+            h3 {
+                color: #F94D1C;
+                font-size: 18px;
+                font-weight: 400;
+
+            }
+
+            h2 {
+                margin-top: 25px;
+                font-size: 45px;
+                font-weight: 700;
+                font-family: 'DM Sans' sans-serif;
+
+            }
+
+            h4 {
+                margin-top: 25px;
+                font-size: 16px;
+                font-weight: 300;
+                
+
+            }
+
+            p {
+                margin-top: 150px;
+                display: inline-block;
+            }
+
+            .intro {
+                margin-left: 15px;
+                font-size: 16px;
+                font-weight: 600;
+            }
+
+            .btn-round {
+                
+                margin-left: 40px;
+                border-radius: 50%;
+                background-color: #ffffff;
+                border: 1px solid #191919 ;
+                width: 58px;
+                height: 58px;
+                text-align: center;
+                padding: 16px;
+                margin-bottom: 60px;
+
+                @media (min-width: 1200px) {
+                    margin-bottom: 0px;
+                }
+                
+                
+                &:hover {
+                    background-color: #191919;
+                    border: 1px solid #191919;
+                    color: #F0EFE9;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,188 @@
+.meet-our-team {
+  background-color: #F0D082;
+  padding-top: 110px;
+  border: 2px solid #F0EFE9;
+  padding-bottom: 110px;
+}
+.meet-our-team .background-yellow .dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.meet-our-team .background-yellow .experience-team h3 {
+  font-family: "Inter";
+  font-size: 18px;
+  color: #F94D1C;
+  margin-bottom: 25px;
+}
+@media (min-width: 440px) {
+  .meet-our-team .background-yellow .experience-team h2 {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.meet-our-team .background-yellow .experience-team h2 .btn-yellow {
+  white-space: nowrap;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+@media (min-width: 438) {
+  .meet-our-team .background-yellow .experience-team h2 .btn-yellow {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+@media (min-width: 728px) {
+  .meet-our-team .background-yellow .experience-team h2 {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 992px) {
+  .meet-our-team .background-yellow .experience-team h2 {
+    display: flex;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 100px;
+  }
+}
+.meet-our-team .background-yellow .experience-team h2 .btn-yellow {
+  border: 1px solid #191919;
+}
+.meet-our-team .background-yellow .personell-pictures {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .meet-our-team .background-yellow .personell-pictures {
+    justify-content: space-between;
+  }
+}
+.meet-our-team .background-yellow .personell-pictures #mark {
+  display: none;
+}
+@media (min-width: 620px) {
+  .meet-our-team .background-yellow .personell-pictures #mark {
+    display: block;
+  }
+}
+.meet-our-team .background-yellow .personell-pictures #kimberly {
+  display: none;
+}
+@media (min-width: 992px) {
+  .meet-our-team .background-yellow .personell-pictures #kimberly {
+    display: block;
+  }
+}
+.meet-our-team .background-yellow .personell-pictures #justin {
+  display: none;
+}
+@media (min-width: 1368px) {
+  .meet-our-team .background-yellow .personell-pictures #justin {
+    display: block;
+  }
+}
+.meet-our-team .background-yellow .personell-pictures .first-last-name {
+  margin-top: 30px;
+}
+.meet-our-team .background-yellow .personell-pictures .first-last-name h4 {
+  font-size: 22px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+}
+.meet-our-team .background-yellow .personell-pictures .first-last-name p {
+  font-family: "Inter";
+  font-size: 18px;
+}
+.meet-our-team .background-yellow .testimonial {
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+}
+@media (min-width: 992px) {
+  .meet-our-team .background-yellow .testimonial {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-left: 30px;
+    padding-bottom: 60px;
+  }
+}
+@media (min-width: 1450px) {
+  .meet-our-team .background-yellow .testimonial {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+}
+@media (min-width: 1750px) {
+  .meet-our-team .background-yellow .testimonial {
+    margin-right: 12%;
+    margin-left: 12%;
+  }
+}
+.meet-our-team .background-yellow .testimonial #amanda {
+  display: none;
+}
+@media (min-width: 768px) {
+  .meet-our-team .background-yellow .testimonial #amanda {
+    display: block;
+  }
+}
+.meet-our-team .background-yellow .testimonial #jack {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .meet-our-team .background-yellow .testimonial #jack {
+    display: block;
+  }
+}
+.meet-our-team .background-yellow .testimonial .red-headline {
+  background-color: #ffffff;
+}
+.meet-our-team .background-yellow .testimonial .red-headline p {
+  display: flex;
+  justify-content: center;
+  font-family: "Inter";
+  font-size: 18px;
+  color: #F94D1C;
+  margin-bottom: 25px;
+  margin-top: 125px;
+}
+.meet-our-team .background-yellow .testimonial .red-headline h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 100px;
+}
+.meet-our-team .background-yellow .testimonial .rating-from-google {
+  display: flex;
+  justify-content: space-between;
+}
+.meet-our-team .background-yellow .testimonial .rating-from-google .rating-text {
+  margin-right: 100px;
+  margin-top: 25px;
+}
+.meet-our-team .background-yellow .testimonial .rating-from-google .personal-intro {
+  display: inline-flex;
+}
+.meet-our-team .background-yellow .testimonial .rating-from-google .personal-intro h4 {
+  margin-top: 30px;
+  margin-left: 15px;
+  font-size: 22px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+}
+.meet-our-team .background-yellow .testimonial .rating-from-google .personal-intro h4 p {
+  margin-top: 5px;
+  font-family: "Inter";
+  font-size: 18px;
+  color: #F94D1C;
+  font-weight: 300;
+}
+.meet-our-team .background-yellow .testimonial .all-reviews {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+  margin-bottom: 120px;
+}
