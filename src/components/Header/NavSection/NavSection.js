@@ -8,15 +8,13 @@ const NavSection = () => {
   return (
     <section className="nav-section">
         <div className="container">    
-            <a href="index.html">
-                <img src={index_html} alt="crito logotype"/>
-                </a>
+            <NavLink to="/"> <img src={index_html} alt="crito logotype"/> </NavLink>
             <div className="dropdown">
                 <button className="dropbtn"><a href='#'><i className="menu-bars fa-solid fa-bars-staggered"></i></a></button>
                 <div className="dropdown-content">
                     <NavLink to="/">Home</NavLink>
-                    <NavLink to="Service.html">Service</NavLink>
-                    <NavLink to="News.html">News</NavLink>
+                    <NavLink to="/Service">Service</NavLink>
+                    <NavLink to="/News">News</NavLink>
                     <NavLink to="/contacts">Contact</NavLink>
                 </div>
             </div>
@@ -38,20 +36,20 @@ const NavSection = () => {
                         </div>
                     </div>
                     <div className="social-media">
-                        <a href="https://www.facebook.com" target="_blank"><i className="fa-brands fa-facebook"></i></a>
-                        <a href="https://twitter.com/?lang=sv" target="_blank"><i className="fa-brands fa-x-twitter"></i></a> 
-                        <a href="https://www.instagram.com" target="_blank"><i className="fa-brands fa-instagram"></i></a>  
-                        <a href="https://www.linkedin.com/feed/" target="_blank"><i className="fa-brands fa-linkedin"></i></a>               
+                        <NavLink to="https://www.facebook.com" target="_blank"><i className="fa-brands fa-facebook"></i></NavLink>
+                        <NavLink to="https://twitter.com/?lang=sv" target="_blank"><i className="fa-brands fa-x-twitter"></i></NavLink> 
+                        <NavLink to="https://www.instagram.com" target="_blank"><i className="fa-brands fa-instagram"></i></NavLink>  
+                        <NavLink to="https://www.linkedin.com/feed/" target="_blank"><i className="fa-brands fa-linkedin"></i></NavLink>               
                     </div>  
                 </div>  
                 <div className="main-menu">
                     <nav>
                     <NavLink to="/">Home</NavLink>
-                    <NavLink to="Service.html">Service</NavLink>
-                    <NavLink to="News.html">News</NavLink>
+                    <NavLink to="/Service">Service</NavLink>
+                    <NavLink to="/News">News</NavLink>
                     <NavLink to="/contacts">Contact</NavLink>
                     </nav>
-                    <a className="btn-yellow btn-login" href="login.hmtl">Login<i className="fa-regular fa-arrow-up-right"></i></a>
+                    <NavLink to="/logginpage" className="btn-yellow btn-login" href="login.hmtl">Login<i className="fa-regular fa-arrow-up-right"></i></NavLink>
                 </div>                     
             </div>    
         </div>    

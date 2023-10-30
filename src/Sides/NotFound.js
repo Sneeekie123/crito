@@ -1,8 +1,16 @@
 import React from 'react'
+import '../components/Generics/Button'
+import { Link } from 'react-router-dom'
+import './NotFound'
 
 const NotFound = () => {
   return (
-    <h1>404 NotFound</h1>
+    <div className='Felbox container'>
+      <h1>404 NotFound</h1>
+      <Link to="/" class="btn-black" >go Back to beginning<i class="fa-regular fa-arrow-up-right"></i></Link>
+    </div>
+   
+    
   )
 }
 
