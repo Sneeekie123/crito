@@ -1,14 +1,15 @@
 import React from 'react';
 import './Lets_Connect.css';
 import background_lines from '../../../assets/images/background-lines.svg'
+import { NavLink } from 'react-router-dom'
 
 const Lets_Connect = () => {
   return (
     <div className='background'>
       <div className="container intro">
         <div className="links">
-          <a href="home.html">Home</a>
-          <a className="active" href="contact.html">Contact</a>
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/contacts">Contact</NavLink>
         </div>
       </div>
     
