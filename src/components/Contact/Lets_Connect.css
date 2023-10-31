@@ -1,0 +1,53 @@
+.background {
+  background-color: #F0EFE9;
+  position: relative;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+.intro .links {
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+.intro .links a {
+  display: inline-block;
+  color: #191919;
+  text-decoration: none;
+  margin: 7px;
+  position: relative;
+}
+.intro .links a:hover {
+  font-weight: 500;
+}
+.intro .links a.active {
+  font-weight: 500;
+}
+.intro .links a.active::after, .intro .links a:hover::after {
+  content: "";
+  position: absolute;
+  font-weight: 500;
+  height: 2px;
+  width: 15px;
+  left: 50%;
+  bottom: -3px;
+  transform: translate(calc(50% - 15px));
+}
+
+.connect {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+.connect h1 {
+  z-index: 1;
+}
+.connect .background-lines {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+  display: block;
+}

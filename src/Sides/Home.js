@@ -1,5 +1,6 @@
 import './Home.css';
-import Header from '../components/Header/Header';
+import NavSection from '../components/Header/NavSection/NavSection';
+import ShowCaseSection from '../components/Header/ShowCase/ShowCaseSection'
 import OurServices from '../components/Main/OurServices/OurServices';
 import Paperz from '../components/Main/Paperz/Paperz'
 import Features from '../components/Main/Features/Features';
@@ -15,8 +16,9 @@ import Footer_icons from '../components/Footer/Footer_icons/Footer_icons';
 const Home = () => {
   return (
     <div className="wrapper">
-    <Header />
+     <NavSection />
     <main>
+      <ShowCaseSection />
       <Paperz />
       <Features />
       <AboutCompany />
