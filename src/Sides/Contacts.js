@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import '../components/Generics/Button.css';
 import NavSection from '../components/Header/NavSection/NavSection';
 import Lets_Connect from '../components/Contact/Lets_Connect/Lets_Connect';
 import Footer_top from '../components/Footer/Footer_top';
@@ -6,6 +7,7 @@ import Footer_icons from '../components/Footer/Footer_icons/Footer_icons';
 import Call_Sites from '../components/Contact/Call_Sites/Call_Sites';
 import Information from '../components/Contact/Information/Information';
 import Map from '../components/Contact/Map/Map';
+
 
 const Contacts = () => {
   return (

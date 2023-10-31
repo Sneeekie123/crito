@@ -1,4 +1,4 @@
-import './Home.css';
+import '../components/Generics/Button.css'
 import NavSection from '../components/Header/NavSection/NavSection';
 import ShowCaseSection from '../components/Header/ShowCase/ShowCaseSection'
 import OurServices from '../components/Main/OurServices/OurServices';
