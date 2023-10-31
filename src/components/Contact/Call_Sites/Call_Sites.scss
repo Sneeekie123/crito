@@ -1,0 +1,51 @@
+.call-sites {
+    .container {
+        display: flex;
+        justify-content: center;
+        margin-top: 110px;
+        padding: 0px;
+        
+        display: none;
+        @media (min-width: 992px){
+            display: flex;
+        }        
+
+        .icons {
+            margin-left: 60px;
+            display: block;
+        }
+
+        .text-information {
+            margin-left: 25px;
+        }
+        
+        .visit-us {
+            justify-content: start;
+            border: 1px solid #F0EFE9;
+            width: 420px;
+            padding-top: 45px;
+            padding-bottom: 50px;
+            margin-left: 0px;
+            
+            
+        }
+
+        .call-us {
+            justify-content: start;
+            border: 1px solid #F0EFE9;
+            width: 420px;
+            padding-top: 45px;
+            padding-bottom: 50px;
+        }
+
+        .email-us {
+            justify-content: start;
+            border: 1px solid #F0EFE9;
+            width: 420px;
+            padding-top: 45px;
+            padding-bottom: 50px;
+            margin-right: 0px;
+        }
+
+    }
+}

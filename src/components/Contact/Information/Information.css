@@ -1,0 +1,35 @@
+.information .background {
+  background-color: #F0EFE9;
+  margin-top: 60px;
+  padding-top: 140px;
+  padding-bottom: 100px;
+  margin-bottom: 120px;
+}
+.information .background .headline {
+  text-align: center;
+}
+.information .message-boxes {
+  display: block;
+}
+.information .message-boxes form {
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 80%;
+}
+.information .message-boxes input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 25px;
+  border: none;
+}
+.information .message-boxes .your-message {
+  border: 1px solid black;
+  padding-bottom: 160px;
+}
+.information .btn-yellow {
+  display: block;
+  margin: 0 auto;
+  margin-top: 45px;
+  width: 80%;
+  text-align: center;
+}

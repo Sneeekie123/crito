@@ -1,0 +1,42 @@
+.call-sites .container {
+  display: flex;
+  justify-content: center;
+  margin-top: 110px;
+  padding: 0px;
+  display: none;
+}
+@media (min-width: 992px) {
+  .call-sites .container {
+    display: flex;
+  }
+}
+.call-sites .container .icons {
+  margin-left: 60px;
+  display: block;
+}
+.call-sites .container .text-information {
+  margin-left: 25px;
+}
+.call-sites .container .visit-us {
+  justify-content: start;
+  border: 1px solid #F0EFE9;
+  width: 420px;
+  padding-top: 45px;
+  padding-bottom: 50px;
+  margin-left: 0px;
+}
+.call-sites .container .call-us {
+  justify-content: start;
+  border: 1px solid #F0EFE9;
+  width: 420px;
+  padding-top: 45px;
+  padding-bottom: 50px;
+}
+.call-sites .container .email-us {
+  justify-content: start;
+  border: 1px solid #F0EFE9;
+  width: 420px;
+  padding-top: 45px;
+  padding-bottom: 50px;
+  margin-right: 0px;
+}

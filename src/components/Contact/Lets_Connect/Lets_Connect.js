@@ -1,6 +1,6 @@
 import React from 'react';
-import '../Contact/Lets_Connect.css';
-import background_lines from '../../assets/images/background-lines.svg'
+import './Lets_Connect.css';
+import background_lines from '../../../assets/images/background-lines.svg'
 
 const Lets_Connect = () => {
   return (
