@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../../index.css'
+import './Article_and_news.css'
 import girlbytable from '../../../assets/images/girlbytable.svg'
 import chatgpt from '../../../assets/images/chatgpt.svg'
 import book_phone from '../../../assets/images/book-phone.svg'

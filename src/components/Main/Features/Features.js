@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../../index.css'
+import './Features.css'
 import handshake from '../../../assets/images/icon-handshake.png'
 import startup from '../../../assets/images/startup.png'
 import risk_box from '../../../assets/images/risk-box.png'

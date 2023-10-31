@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../../index.css'
+import './Project_and_case.css'
 import businessman from '../../../assets/images/img-business.png'
 import client from '../../../assets/images/img-client.png'
 import educate from '../../../assets/images/img-educate.png'

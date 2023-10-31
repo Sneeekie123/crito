@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../../index.css'
+import './Why_Choose_Us.css'
 import thumps_up from '../../../assets/images/thumbs-up.svg'
 import pentagon from '../../../assets/images/pentagon.svg'
 import  experience from '../../../assets/images/experience.svg'

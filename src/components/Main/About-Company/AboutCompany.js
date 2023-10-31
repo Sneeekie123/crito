@@ -1,5 +1,4 @@
 import React from 'react'
-import '../../../index.css'
 import './AboutCompany.css'
 import samantha from '../../../assets/images/Samantha-brown.png'
 

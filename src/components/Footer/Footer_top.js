@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../index.css'
+import './Footer_top.css'
 import wavy_lines_fotter from '../../assets/images/wavy-lines-footer.svg'
 import crito_fotter from '../../assets/images/crito-footer.svg'
 
