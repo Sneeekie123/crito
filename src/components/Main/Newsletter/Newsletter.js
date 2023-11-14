@@ -1,5 +1,5 @@
 import React from 'react';
-import background_wavy_lines from '../../../assets/images/background-wavy-lines.svg'; // Replace with the actual path
+import background_wavy_lines from '../../../assets/images/background-wavy-lines.svg'; 
 import './Newsletter.css'
 
 const Newsletter = () => {

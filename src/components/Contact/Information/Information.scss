@@ -27,6 +27,23 @@
             margin: 0 auto;
             margin-top: 10px;
             width: 80%;
+
+            .error {
+                color: red;
+                border: none;
+                background-color: rgb(218, 133, 133);
+            }
+            
+            span {
+                margin-left: 10px;
+                font-size: 0.8em;
+                color: red;
+                display: block;
+                position: absolute;
+                
+              
+                
+            }
            
             
         }
@@ -37,11 +54,12 @@
             padding: 12px;
             border-radius: 25px;
             border: none;
+            margin-top: 25px;
 
             
             
         }
-        .your-message {
+        .your_message {
             border: 1px solid black;
             padding-bottom: 160px;
             

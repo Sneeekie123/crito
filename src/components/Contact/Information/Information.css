@@ -16,13 +16,26 @@
   margin-top: 10px;
   width: 80%;
 }
+.information .message-boxes form .error {
+  color: red;
+  border: none;
+  background-color: rgb(218, 133, 133);
+}
+.information .message-boxes form span {
+  margin-left: 10px;
+  font-size: 0.8em;
+  color: red;
+  display: block;
+  position: absolute;
+}
 .information .message-boxes input {
   width: 100%;
   padding: 12px;
   border-radius: 25px;
   border: none;
+  margin-top: 25px;
 }
-.information .message-boxes .your-message {
+.information .message-boxes .your_message {
   border: 1px solid black;
   padding-bottom: 160px;
 }
