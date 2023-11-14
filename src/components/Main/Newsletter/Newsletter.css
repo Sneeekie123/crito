@@ -30,6 +30,9 @@
   font-size: 45px;
   font-weight: 700;
 }
+.newsletter .container form {
+  display: flex;
+}
 .newsletter .container form input {
   color: #191919;
   text-decoration: none;
@@ -40,4 +43,15 @@
   outline: none;
   border: 1px solid rgba(25, 25, 25, 0.1019607843);
   margin-right: 20px;
+}
+.newsletter .container form .error {
+  color: red;
+  border: 1px solid red;
+  background-color: rgb(218, 133, 133);
+}
+.newsletter .container form span {
+  padding: 10px;
+  font-size: 0.8em;
+  color: red;
+  position: absolute;
 }

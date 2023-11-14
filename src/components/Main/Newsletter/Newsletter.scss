@@ -38,9 +38,11 @@
         }
         
         form {
+           display: flex;
+
 
             input {
-               
+
                 color: #191919;
                 text-decoration: none;
                 padding: 15px 30px;
@@ -53,6 +55,21 @@
 
             }
 
+            .error {
+                color: red;
+                border: 1px solid red;
+                background-color: rgb(218, 133, 133);
+            }
+            
+            span {
+                padding: 10px;
+                font-size: 0.8em;
+                color: red;
+                position: absolute;
+                
+            }
+
+            
         }
     }
 }
