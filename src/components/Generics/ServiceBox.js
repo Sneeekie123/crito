@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Servicebox.css'
 
 const ServiceBox = ({title, description, url}) => {
   return (

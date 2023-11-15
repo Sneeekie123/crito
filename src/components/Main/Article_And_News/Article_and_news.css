@@ -17,6 +17,7 @@
 }
 .article-and-news .headline h2 .browse-services {
   background-color: #ffffff;
+  border: 1px solid #191919;
   margin-top: 0;
   margin-bottom: 30px;
   white-space: nowrap;

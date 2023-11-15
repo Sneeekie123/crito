@@ -1,0 +1,54 @@
+.our-services {
+    background-color: #F0EFE9;
+    padding: 60px;
+    z-index: auto;
+    position: relative;
+  
+    @media (min-width: 700px) {
+      padding: 120px;
+    }
+  
+    .headline {
+      .top-headline {
+        h3 {
+          font-family: "Inter";
+          font-size: 18px;
+          color: #F94D1C;
+          margin-bottom: 25px;
+        }
+  
+        h2 {
+          margin-top: 25px;
+          font-size: 45px;
+          font-weight: 700;
+          font-family: "DM Sans" sans-serif;
+  
+          @media (min-width: 1550px) {
+            margin-right: 60%;
+          }
+        }
+      }
+  
+
+  
+      .browse {
+        display: flex;
+        justify-content: center;
+        z-index: 2;
+        position: relative;
+       
+      }
+    }
+  
+    .wavy-lines-middle {
+      position: absolute;
+      bottom: 50px;
+      right: 0;
+      bottom: 0;
+      z-index: 1;
+    }
+  
+    .btn-transparent {
+      margin-top: 45px;
+    }
+  }

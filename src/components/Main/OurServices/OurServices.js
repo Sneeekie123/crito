@@ -1,6 +1,6 @@
 import React from 'react'
 import './OurServices.css'
-import ServiceBox from './ServiceBox'
+import ServiceBox from '../../Generics/ServiceBox'
 import Button from '../../Generics/Button'
 import wavy_lines_middle from '../../../assets/images/wavy-lines-middle.svg'
 
@@ -39,7 +39,7 @@ const OurServices = () => {
                    
                 </div>
                 <div className="container browse"> 
-                <Button type="" title="Browse Services" url="services.html"/>  
+                <Button className="browse-services" type="" title="Browse Services" url="services.html"/>  
                 </div>
                 <div className="wavy-lines-middle">
                     <img className='wavy-lines-middle' src={wavy_lines_middle} alt="wavy-lines.middle"/>

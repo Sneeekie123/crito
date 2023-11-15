@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;900&family=Playfair+Display:ital@1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,900&display=swap");
+
 html, body {
   color: #191919;
   font-family: "Inter", sans-serif;
@@ -17,15 +18,17 @@ html, body {
   font-weight: 600;
   border-radius: 25px;
   font-size: 16px;
-}
-.btn-yellow i {
-  margin-left: 8px;
-  font-size: 0.9em;
-}
-.btn-yellow:hover {
-  background-color: #191919;
-  border: 1px solid #191919;
-  color: #F0EFE9;
+
+  i {
+    margin-left: 8px;
+    font-size: 0.9em;
+  }
+
+  &:hover {
+    background-color: #191919;
+    border: 1px solid #191919;
+    color: #F0EFE9;
+  }
 }
 
 .btn-black {
@@ -37,15 +40,17 @@ html, body {
   font-weight: 600;
   border-radius: 35px;
   font-size: 16px;
-}
-.btn-black i {
-  margin-left: 8px;
-  font-size: 0.9em;
-}
-.btn-black:hover {
-  background-color: #ffffff;
-  border: 1px solid #191919;
-  color: #191919;
+
+  i {
+    margin-left: 8px;
+    font-size: 0.9em;
+  }
+
+  &:hover {
+    background-color: #ffffff;
+    border: 1px solid #191919;
+    color: #191919;
+  }
 }
 
 .btn-transparent {
@@ -57,15 +62,17 @@ html, body {
   font-weight: 600;
   border-radius: 25px;
   font-size: 16px;
-}
-.btn-transparent i {
-  margin-left: 8px;
-  font-size: 0.9em;
-}
-.btn-transparent:hover {
-  background-color: #191919;
-  border: 1px solid #191919;
-  color: #F0EFE9;
+
+  i {
+    margin-left: 8px;
+    font-size: 0.9em;
+  }
+
+  &:hover {
+    background-color: #191919;
+    border: 1px solid #191919;
+    color: #F0EFE9;
+  }
 }
 
 .browse-services {
@@ -75,12 +82,14 @@ html, body {
   border-radius: 35px;
   font-size: 16px;
   margin-top: 45px;
-}
-.browse-services i {
-  margin-left: 10px;
-}
-.browse-services:hover {
-  background-color: rgba(25, 25, 25, 0.7803921569);
-  border: 1px solid #F9D783;
-  color: #ffffff;
+
+  i {
+    margin-left: 10px;
+  }
+
+  &:hover {
+    background-color: #191919c7;
+    border: 1px solid #F9D783;
+    color: #ffffff;
+  }
 }
