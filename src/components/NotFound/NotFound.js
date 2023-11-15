@@ -1,13 +1,15 @@
 import React from 'react'
 import '../Generics/Button'
 import { Link } from 'react-router-dom'
-import './NotFound'
+import './NotFound.css'
+import error_img from '../../assets/images/404-error-img.png'
 
 const NotFound = () => {
   return (
-    <div className='Felbox container'>
-      <h1>404 NotFound</h1>
-      <Link to="/" class="btn-black" >go Back to beginning<i class="fa-regular fa-arrow-up-right"></i></Link>
+    <div>
+      
+      <img className='error-img' src={error_img} alt=""/>
+      <Link to="/" class="container btn-transparent-kat" >Go back to Home page</Link>
     </div>
    
     

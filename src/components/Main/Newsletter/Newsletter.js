@@ -2,6 +2,8 @@ import React from 'react';
 import background_wavy_lines from '../../../assets/images/background-wavy-lines.svg'; 
 import './Newsletter.css'
 
+
+
 const Newsletter = () => {
 
   const register = (event) => {
@@ -66,7 +68,7 @@ const Newsletter = () => {
       <img className="background-wavy-lines" src={background_wavy_lines} alt="" />
       <div className="container">
         <h2>Get News Updates By Signup</h2>
-        <form className='continer' onSubmit={register} method="post" noValidate>
+        <form id='regForm' className='continer'  onSubmit={register} method="post" noValidate>
           <div>
             <input id="email" required type="email" placeholder="username@domain.com" />
             <span className='container span' id="email-error"></span>

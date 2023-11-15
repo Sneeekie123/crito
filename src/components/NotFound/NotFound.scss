@@ -1,0 +1,35 @@
+
+
+.error-img {
+    width: fill;
+    height: 100vh;
+    object-fit: cover;
+    
+}
+
+.btn-transparent-kat {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #191919;
+    bottom: 100px; 
+    text-decoration: none;
+    padding: 12px 30px;
+    font-weight: 600;
+    border-radius: 25px;
+    font-size: 16px;
+
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+   
+
+    &:hover {
+        background-color: rgb(87, 207, 83);
+        border: 1px solid #191919;
+        color: #191919;
+      }
+}

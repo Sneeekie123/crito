@@ -1,5 +1,9 @@
 import React from 'react';
 import './Information.css';
+import './Validation'
+
+
+
 
 const Information = () => {
   const register = (event) => {
@@ -88,7 +92,7 @@ const Information = () => {
           <h2>Leave us a message for any information.</h2>
         </div>
         <div className="message-boxes">
-          <form onSubmit={register} method="post" noValidate>
+          <form   action='testing.php' onSubmit={register} method="post" noValidate>
             <label htmlFor="name"></label>
             <input type="text" name="name" id="name" title="name" placeholder="Name*" required />
             <span className=' span' id="name-error"></span>
