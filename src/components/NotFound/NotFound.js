@@ -9,7 +9,7 @@ const NotFound = () => {
     <div>
       
       <img className='error-img' src={error_img} alt=""/>
-      <Link to="/" class="container btn-transparent-kat" >Go back to Home page</Link>
+      <Link to="/" class="container btn-notfound" >Go back to Home page</Link>
     </div>
    
     

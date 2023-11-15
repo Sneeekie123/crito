@@ -7,7 +7,7 @@
      object-fit: cover;
 }
 
-.btn-transparent-kat {
+.btn-notfound {
   display: flex;
   position: absolute;
   justify-content: center;
@@ -24,7 +24,7 @@
   right: 0;
   z-index: 1;
 }
-.btn-transparent-kat:hover {
+.btn-notfound:hover {
   background-color: rgb(87, 207, 83);
   border: 1px solid #191919;
   color: #191919;
