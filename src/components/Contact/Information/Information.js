@@ -1,11 +1,9 @@
 import React from 'react';
 import './Information.css';
-import './Validation'
-
-
-
 
 const Information = () => {
+  const errors = []; 
+
   const register = (event) => {
     event.preventDefault();
 
@@ -13,6 +11,24 @@ const Information = () => {
       if (element.tagName.toLowerCase() === 'input' && element.required) {
         validateFormField(element);
       }
+    }
+
+    if (!errors.includes(false)) {
+      const json = JSON.stringify({
+        name: event.target['name'].value,
+        email: event.target['email'].value,
+        message: event.target['message'].value,
+      });
+
+      fetch("https://win23-assignment.azurewebsites.net/api/contactform", {
+        method: "post",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: json
+      })
+      .then(res => res.text())
+      .then(data => console.log(data));
     }
   };
 
@@ -22,8 +38,8 @@ const Information = () => {
       name_invalid: 'You must enter a valid name',
       email_required: 'You must enter an Email address',
       email_invalid: 'Please enter a valid Email address',
-      your_message_required: 'You must enter a message',
-      your_message_invalid: 'You must enter a valid message',
+      message_required: 'You must enter a message',
+      message_invalid: 'You must enter a valid message',
     };
 
     const elementId = `${targetElement.id}`;
@@ -39,6 +55,7 @@ const Information = () => {
       if (elementError) {
         elementError.innerHTML = errorMessages[`${targetElement.id}_required`];
       }
+      errors.push(false); 
     } else {
       let result = false;
       switch (targetElement.type) {
@@ -66,6 +83,7 @@ const Information = () => {
         if (elementError) {
           elementError.innerHTML = errorMessages[`${targetElement.id}_invalid`];
         }
+        errors.push(false); 
       } else {
         if (element) {
           element.classList.remove('error');
@@ -73,6 +91,7 @@ const Information = () => {
         if (elementError) {
           elementError.innerHTML = '';
         }
+        errors.push(true); 
       }
     }
   };
@@ -92,18 +111,18 @@ const Information = () => {
           <h2>Leave us a message for any information.</h2>
         </div>
         <div className="message-boxes">
-          <form   action='testing.php' onSubmit={register} method="post" noValidate>
+          <form action='testing.php' onSubmit={register} method="post" noValidate>
             <label htmlFor="name"></label>
             <input type="text" name="name" id="name" title="name" placeholder="Name*" required />
-            <span className=' span' id="name-error"></span>
+            <span className='span' id="name-error"></span>
             
             <label htmlFor="email"></label>
             <input type="email" id="email" name="email" placeholder="username@domain.com" required />
-            <span className=' span' id="email-error"></span>
+            <span className='span' id="email-error"></span>
             
-            <label htmlFor="your_message"></label>
-            <input className="your_message" name="your_message" id="your_message" title="your_message" placeholder="Your message*" required />
-            <span className=' span' id="your_message-error"></span>
+            <label htmlFor="message"></label>
+            <input className="message" name="message" id="message" title="message" placeholder="Your message*" required />
+            <span className='span' id="message-error"></span>
             
             <button type="submit" className="btn-yellow btn-login">
               Send Message<i className="fa-regular fa-arrow-up-right"></i>
