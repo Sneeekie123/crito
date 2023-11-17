@@ -28,6 +28,12 @@
   display: block;
   position: absolute;
 }
+.information .message-boxes form .logdata {
+  animation-duration: 25ms;
+  font-size: 1em;
+  margin-top: 20px;
+  color: #191919;
+}
 .information .message-boxes input {
   width: 100%;
   padding: 12px;
