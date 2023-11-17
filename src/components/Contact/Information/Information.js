@@ -37,8 +37,7 @@ const Information = () => {
           setResponseData(data);
         })
         .catch((error) => {
-          
-          setResponseData(null);
+          setResponseData('');
         });
     }
   };
@@ -62,6 +61,8 @@ const Information = () => {
         break;
     }
   };
+
+
 
   const validateLength = (id, value, minLength) => {
     if (value.length < minLength) {
