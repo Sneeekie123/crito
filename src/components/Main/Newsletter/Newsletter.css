@@ -34,6 +34,7 @@
   display: flex;
 }
 .newsletter .container form input {
+  display: flex;
   color: #191919;
   text-decoration: none;
   padding: 15px 30px;
